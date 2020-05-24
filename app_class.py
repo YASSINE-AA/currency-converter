@@ -63,10 +63,9 @@ class MainWindow(QMainWindow):
             rate_usd_tnd = float(str(rate_text[0]).replace(
                 '<span class="text-success">', '').replace("</span>", ""))
             if str(currency_list_1.currentText()) == "USD" and str(currency_list_2.currentText()) == "TND":
-                print("1 is in motion")
                 converted_amount = float(to_be_converted.text()) * float(rate_usd_tnd)
+            
             if str(currency_list_1.currentText()) == "TND" and str(currency_list_2.currentText()) == "USD":
-                print("2 is in motion")
                 converted_amount = float(to_be_converted.text()) * float(1 / rate_usd_tnd)
                 
             if to_be_converted != '':
