@@ -2,7 +2,6 @@ from PySide2.QtWidgets import QMainWindow, QLabel, QPushButton, QLineEdit, QComb
 from PySide2.QtGui import QFont, QDoubleValidator
 from bs4 import BeautifulSoup
 import requests
-import math
 # Author Yassine Ahmed Ali
 
 
