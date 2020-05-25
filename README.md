@@ -1,4 +1,4 @@
-# currency-convertor
+# currency-converter
 This is a simple GUI app built with python that lets you convert currency!
 
 ### Screenshot
