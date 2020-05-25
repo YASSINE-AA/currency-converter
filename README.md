@@ -2,7 +2,6 @@
 This is a simple GUI app built with python that lets you convert currency!
 
 ### Screenshot
-![](screenshot1.png)
 ![](screenshot2.png)
 ### Setting it up:
 Since this app gets the current exchange rates from the web, you will need to install BeautifulSoup.
